@@ -2,6 +2,7 @@ import React from 'react'
 import TextUtils from '../assets/portfolio/TextUtils.png'
 import Typingthumbnail from '../assets/portfolio/Typingthumbnail.png'
 import Weather from '../assets/portfolio/weather-app.png'
+import Blog from '../assets/portfolio/blog.png'
 
 const Portfolio = () => {
 
@@ -23,6 +24,13 @@ const Portfolio = () => {
             src: Weather,
             link: "https://shashwat-01.github.io/weather-app/",
             codeLink: "https://github.com/shashwat-01/weather-app"
+        },
+        {
+            id:4,
+            src: Blog,
+            link: "https://github.com/shashwat-01/blogging-app",
+            codeLink: "https://github.com/shashwat-01/blogging-app"
+
         }
     ]
 

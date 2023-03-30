@@ -7,6 +7,7 @@ import tailwind from '../assets/tailwind.png'
 import cpp from '../assets/c++.png'
 import figma from '../assets/figma.png'
 import bootstrap from '../assets/Bootstrap.png'
+import firebase from '../assets/firebase.png'
 
 const Skills = () => {
 
@@ -58,11 +59,17 @@ const Skills = () => {
       src:bootstrap,
       title:"Bootstrap",
       style: 'shadow-purple-400'
+    },
+    {
+      id:9,
+      src:firebase,
+      title:"Firebase",
+      style: 'shadow-orange-400'
     }
   ]
 
   return (
-    <div name="skills" className='bg-gray-900 w-full h-screen'>
+    <div name="skills" className='bg-gray-900 w-full md:h-screen'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div>
             <p className=' text-4xl font-bold border-b-4 border-gray-500 inline text-cyan-200'>Skills</p>
