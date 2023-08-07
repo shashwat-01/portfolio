@@ -28,7 +28,7 @@ const Portfolio = () => {
         {
             id:4,
             src: Blog,
-            link: "https://github.com/shashwat-01/blogging-app",
+            link: "https://shashwat-01.github.io/blogging-app/",
             codeLink: "https://github.com/shashwat-01/blogging-app"
 
         }
